@@ -1,6 +1,6 @@
-import * as THREE from  '/three.js/build/three.module.js';
-import { GLTFLoader } from '/three.js/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from '/three.js/examples/jsm/controls/OrbitControls.js';
+import * as THREE from  'test-odontologia/three.js/build/three.module.js';
+import { GLTFLoader } from 'test-odontologia/three.js/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'test-odontologia/three.js/examples/jsm/controls/OrbitControls.js';
 
 
 var renderer, scene, camera;
@@ -129,7 +129,7 @@ function init(){
 function loadModel(){
         //Cargar modelo 3D
         var loader = new GLTFLoader();
-        loader.load('/modelo/prototipo_fantoma_lowpoly.glb', function ( gltf ){
+        loader.load('test-odontologia/modelo/prototipo_fantoma_lowpoly.glb', function ( gltf ){
             
             model = gltf.scene;
             

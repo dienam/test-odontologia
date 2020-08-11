@@ -129,7 +129,7 @@ function init(){
 function loadModel(){
         //Cargar modelo 3D
         var loader = new GLTFLoader();
-        loader.load('test-odontologia/modelo/prototipo_fantoma_lowpoly.glb', function ( gltf ){
+        loader.load('../modelo/prototipo_fantoma_lowpoly.glb', function ( gltf ){
             
             model = gltf.scene;
             

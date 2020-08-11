@@ -1,6 +1,6 @@
 import * as THREE from  './three.js/build/three.module.js';
-import { GLTFLoader } from 'test-odontologia/three.js/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from 'test-odontologia/three.js/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from './three.js/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from './three.js/examples/jsm/controls/OrbitControls.js';
 
 
 var renderer, scene, camera;

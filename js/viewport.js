@@ -1,4 +1,4 @@
-import * as THREE from  'test-odontologia/three.js/build/three.module.js';
+import * as THREE from  './three.js/build/three.module.js';
 import { GLTFLoader } from 'test-odontologia/three.js/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'test-odontologia/three.js/examples/jsm/controls/OrbitControls.js';
 
